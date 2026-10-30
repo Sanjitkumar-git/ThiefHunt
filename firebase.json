@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "thiefhuntmobile",
+          "appId": "1:768236434044:android:0c98aa4244fe78cf0c0ff9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "thiefhuntmobile",
+          "configurations": {
+            "android": "1:768236434044:android:0c98aa4244fe78cf0c0ff9",
+            "ios": "1:768236434044:ios:3b2bc00877fccf140c0ff9",
+            "macos": "1:768236434044:ios:3b2bc00877fccf140c0ff9",
+            "web": "1:768236434044:web:319d9a488e3d55630c0ff9",
+            "windows": "1:768236434044:web:f46543bacbb4caba0c0ff9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

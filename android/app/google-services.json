@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768236434044",
+    "project_id": "thiefhuntmobile",
+    "storage_bucket": "thiefhuntmobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768236434044:android:0c98aa4244fe78cf0c0ff9",
+        "android_client_info": {
+          "package_name": "com.example.thief_hunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768236434044-4e4o33pup14e4b6b5ocq25odtko3jkno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClWrQqVPxkUl7Sv6jloRAmHDpH_6HNhW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768236434044-4e4o33pup14e4b6b5ocq25odtko3jkno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
